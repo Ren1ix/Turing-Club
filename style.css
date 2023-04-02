@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background: url('https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_700/MTkzODAzNTgyODUxMDY1MzI4/cool-css-backgrounds.webp');
+	padding: 100px 0;
+}
+
+h3 {
+	font-size: 20 px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.container {
+ 	width: 800px;
+ 	min-height: 500px;
+ 	border: 10px solid #fff;
+ 	margin: 0 auto;
+ 	background: #fff;
+ }
+
+.header {
+ 	display: flex;
+ 	height: 150px;
+}
+
+.title-block {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 35px;
+	background: url("https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1489&q=80") no-repeat center center / cover;
+	color: #fff;
+	height: 100%;
+	width: 80%;
+	margin-right: 7px;
+}
+
+.title-block::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: 0.5;
+}
+
+.title {
+	position: relative;
+	z-index: 1;
+}
+
+.clubpic {
+ 	display: flex;
+ 	height: 100%;
+ 	width: 20%;
+ 	background: url("https://sun9-7.userapi.com/impg/ZuBzklfh4m7DJ7_5zRu0rM3QxDKgImQ9duVkMQ/jUIETk3wjhE.jpg?size=500x501&quality=95&sign=7a6139cd90c982456cedb962629e0ded&type=album") no-repeat center center / cover;
+}
+
+.navigation ul {
+	display: flex;
+	background: #e8e9eb;
+	margin: 10px 0;
+}
+
+.navigation li a {
+	display: flex;
+	padding: 20px;
+	text-decoration: none;
+	color: #424142;
+	font-weight: bold;
+	border-right: 1px solid #bdbfc9;
+		transition: 0.3s ease;
+}
+
+.navigation li a:hover {
+	background: #cfcfcf;
+}
+
+.content-wrapper {
+	display: flex;
+}
+
+.content {
+	width: 70%;
+	padding: 20px;
+}
+
+.sidebar {
+	width: 30%;
+	padding: 20px;
+	font-size: 25px;
+	text-align: right;
+}
+
+.courses li {
+	padding: 10px 0;
+	transition: transform 0.5s ease;
+	cursor: pointer;
+}
+
+.courses li:hover {
+	transform: translateX(10px);
+}
